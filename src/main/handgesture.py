@@ -37,8 +37,6 @@ while True:
     fps = 1 / (cTime - pTime)
     pTime = cTime
     
-    
-    
 cv2.destroyWindow()
 
 
