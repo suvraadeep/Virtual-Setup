@@ -1,0 +1,5 @@
+mediapipe
+cv2
+gesture
+pyautogui
+autopy
