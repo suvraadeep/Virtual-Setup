@@ -1,5 +1,9 @@
 mediapipe
-cv2
+opencv-contrib-python==4.7.0.72
+opencv-python==4.8.0.74
+opencv-python-headless==4.8.0.74
 gesture
 pyautogui
-autopy
+streamlit
+
+-e .
