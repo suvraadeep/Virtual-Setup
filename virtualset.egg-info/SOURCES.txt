@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/__init__.py
+src/main/__init__.py
+virtualset.egg-info/PKG-INFO
+virtualset.egg-info/SOURCES.txt
+virtualset.egg-info/dependency_links.txt
+virtualset.egg-info/requires.txt
+virtualset.egg-info/top_level.txt
