@@ -1,10 +1,9 @@
-from dotenv import load_dotenv
-load_dotenv()
-
 import google.generativeai as genai 
 import os 
 import streamlit as st 
 from PIL import Image 
+from dotenv import load_dotenv
+load_dotenv()
 
 genai.configure(api_key=os.getenv("google_api_key"))
 
@@ -12,7 +11,6 @@ def output(input,image,prompt):
     model=genai.GenerativeModel("gemini-pro-vision")
     response=model.generate_content([input,image[0],prompt])
     return response.text
-
 
 def input_image_setup(uploaded_file):
     if uploaded_file is not None:
