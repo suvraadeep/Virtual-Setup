@@ -6,5 +6,5 @@ gesture
 pyautogui
 streamlit
 google-generativeai
-
+python-dotenv
 -e .
