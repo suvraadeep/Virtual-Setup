@@ -5,5 +5,7 @@ opencv-python-headless==4.8.0.74
 gesture
 pyautogui
 streamlit
+python-dotenv
+google-generativeai
 
 -e .
