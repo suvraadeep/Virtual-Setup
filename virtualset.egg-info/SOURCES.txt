@@ -2,6 +2,10 @@ README.md
 setup.py
 src/__init__.py
 src/main/__init__.py
+src/main/handgesture.py
+src/main/handgesturemodule.py
+src/main/painter.py
+src/main/virtualmouse.py
 virtualset.egg-info/PKG-INFO
 virtualset.egg-info/SOURCES.txt
 virtualset.egg-info/dependency_links.txt

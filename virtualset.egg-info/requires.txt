@@ -5,3 +5,4 @@ mediapipe
 streamlit
 gesture
 pyautogui
+google-generativeai
