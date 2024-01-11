@@ -37,8 +37,7 @@ if uploaded_file is not None:
 
 question=st.text_input("Ask a Question")
 inputp="""
-You're an expert in reading text on images.
-I will give you a Image and ask a question.
+You're an expert in reading text on images
 You carefully go through the Image and answer my Question
 """
 
