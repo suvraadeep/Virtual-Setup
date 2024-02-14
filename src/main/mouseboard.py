@@ -2,7 +2,7 @@ import cv2
 import time
 import numpy as np
 import pyautogui
-import HandTrackingModule as htm
+import handgesturemodule as htm
 
 ##############################################################
 brushThickness = 4

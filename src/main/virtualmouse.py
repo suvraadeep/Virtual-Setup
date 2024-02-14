@@ -4,6 +4,7 @@ import numpy as np
 import pyautogui
 import handgesturemodule as htm
 
+
 ##############################################################
 pyautogui.FAILSAFE=False
 wcam,hcam=640,480
