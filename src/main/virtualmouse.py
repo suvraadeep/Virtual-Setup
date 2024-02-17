@@ -6,6 +6,7 @@ import handgesturemodule as htm
 
 
 ##############################################################
+#Preprocessing templates 
 pyautogui.FAILSAFE=False
 wcam,hcam=640,480
 cap = cv2.VideoCapture(0)
@@ -13,7 +14,7 @@ cap.set(3, wcam)
 cap.set(4, hcam)
 pTime=0
 screenWidth, screenHeight = pyautogui.size()
-detector=htm.handDetector(maxHands=1)
+detector=htm.handDetector(maxHands=2)
 frameR=100
 smooth=1
 plocx,plocy=0,0

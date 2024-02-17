@@ -3,6 +3,9 @@ import numpy as np
 import time
 import os
 import handgesturemodule as htm
+
+
+##########################################
 brushThickness = 4
 cap= cv2.VideoCapture(0)
 cap.set(3,1920)
@@ -11,6 +14,9 @@ DRAWCOLOUR=(255,0,255)
 detector=htm.handDetector(detectionCon=0.9,maxHands=1)
 xp,yp=0,0
 imgCanvas = np.zeros((490,640, 3), np.uint8)
+###############################################
+
+
 while True:
     success, img = cap.read()
     img=detector.findHands(img)
@@ -20,8 +26,6 @@ while True:
     if len(lmlist)!=0:
         x1, y1 = lmlist[8][1], lmlist[8][2]
         x2, y2 = lmlist[12][2], lmlist[12][1]
-
-
 
         fingers=detector.fingersUp()
         if fingers[1]==True and fingers[2]==True:
